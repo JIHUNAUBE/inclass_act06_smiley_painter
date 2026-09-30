@@ -6,3 +6,7 @@ I calculated the face radius using size.shortestSide * 0.4 so the face fits with
 ## Emulator Screenshot
 
 ![Landscape layout](landscape.png)
+
+## Smile Geometry Diagram
+
+![Smile geometry](smile_sketch.svg)

@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="520"
+     viewBox="0 0 640 520">
+  <rect width="640" height="520" fill="white"/>
+  <g font-family="Arial, sans-serif" fill="#222">
+    <text x="30" y="35" font-size="22" font-weight="bold">
+      Smile Geometry - Jihun Kim
+    </text>
+
+    <!-- Canvas: 300 x 300, displayed starting at (30, 60). -->
+    <rect x="30" y="60" width="300" height="300"
+          fill="#f8fafc" stroke="#aaa"/>
+
+    <!-- Face center: (150, 150), radius: 120. -->
+    <circle cx="180" cy="210" r="120"
+            fill="#ffcc80" stroke="#222" stroke-width="3"/>
+    <circle cx="138" cy="183.6" r="10.8" fill="#222"/>
+    <circle cx="222" cy="183.6" r="10.8" fill="#222"/>
+
+    <!-- Radius and center. -->
+    <line x1="180" y1="210" x2="300" y2="210"
+          stroke="#2563eb" stroke-width="2"/>
+    <circle cx="180" cy="210" r="4" fill="#2563eb"/>
+    <text x="205" y="200" font-size="14" fill="#2563eb">r = 120</text>
+
+    <!-- At mood 0.8: mouth width 114, height 75.6. -->
+    <rect x="123" y="208.2" width="114" height="75.6"
+          fill="none" stroke="#dc2626" stroke-width="2"
+          stroke-dasharray="5 4"/>
+
+    <!-- Arc from 27 degrees to 153 degrees, clockwise. -->
+    <path d="M 230.79 263.16 A 57 37.8 0 0 1 129.21 263.16"
+          fill="none" stroke="#222" stroke-width="4"
+          stroke-linecap="round"/>
+    <circle cx="230.79" cy="263.16" r="4" fill="#dc2626"/>
+    <text x="240" y="280" font-size="13" fill="#dc2626">Start</text>
+
+    <text x="350" y="100" font-size="17" font-weight="bold">
+      Canvas coordinates
+    </text>
+    <text x="350" y="130" font-size="15">Size = 300 x 300</text>
+    <text x="350" y="160" font-size="15">Center = (150, 150)</text>
+    <text x="350" y="190" font-size="15">r = shortestSide x 0.4</text>
+    <text x="350" y="220" font-size="15">Mouth center = (150, 186)</text>
+    <text x="350" y="250" font-size="15">Mouth width = 0.95r = 114</text>
+    <text x="350" y="280" font-size="15">At mood 0.8: height = 0.63r</text>
+    <text x="350" y="310" font-size="15">Start angle = 0.15 pi = 27°</text>
+    <text x="350" y="340" font-size="15">Sweep angle = 0.70 pi = 126°</text>
+
+    <text x="30" y="400" font-size="16">
+      Red dashed box: mouth Rect. Blue line: face radius.
+    </text>
+    <text x="30" y="430" font-size="16">
+      Positive angles move clockwise from the right.
+    </text>
+    <text x="30" y="460" font-size="16">
+      Positions and dimensions scale with the face radius.
+    </text>
+    <text x="30" y="495" font-size="13" fill="#555">
+      Implementation diagram documenting the completed app.
+    </text>
+  </g>
+</svg>
